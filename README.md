@@ -13,38 +13,38 @@ Comments in Python are marked by a # sign (for single-line comments) or three ma
 
 Edit README.md to answer the following questions:
 
-- Open main01.py. Before running it, what do you expect this program to do? I think this program is another type of guessing game.
+- Open main01.py. Before running it, what do you expect this program to do?  I think this program is another type of guessing game.
 
-  - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. It runs in terminal below, and ask what is my favorite color?
-  - What do you think the program did with what you typed in answer to the question? It will save it in the file.
-- Open main02.py. Before running it, describe how this is different than main01.py. It has the input function.
-  - What do you think the color = input() will do? I think the color is the same as the main01.
-  - Run the program in the terminal and answer the question. Did the program do what you expected? No i expect it to give me the correct answer
-- Open main03.py. Before running it, describe how this is different than main02.py. It can tell us the correct answer
-  - What is happening on lines 9–12? If you type in other color other than red, it will tell you to try again, it you type red then it is the correct answer
-  - Why are lines 10 and 12 indented? Because last line end with the :
-  - Run the program and answer the question. What happens if you don’t capitalize Red? The answer is wrong if i don't capitalize red.
-  - What does this tell you about "color"? The color tell me the right answer
-- Open main04.py. Before running it, describe how this is different than main03.py. The input red is equal to Red
-  - What problem is this trying to solve? If you dont capitalize red the answer is still correct.
-  - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)? The answer is wrong.
-- Open main05.py. What do you expect line 9 to do? It allow us to repeat the game until i am right.
-  - What problem is it trying to solve? I dont need to start over, i can keep playing it.
-  - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)? The answer is wrong
- - Open main06.py. How is line 9 different than in main05.py? It has the strip(). 
-   - What would you guess .strip() is doing? Return to the begging of the game.
-   - Run the program and answer the question. Is there another way of writing “red” that will break this logic? If you add another color in it
- - Open main07.py. Before running this program, how do you expect this to be different than main06.py? It has a hint if the color is similar.
-   - What is happening on line 12? If you type pink then it will give you a hint.
-   - Run the program and answer the question.
- - Open main08.py. What is the purpose of line 9? It tells you red is the correct answer
-   - Why are lines 10–17 indented? Because the last line has the :
-   - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)? It keep repeating sorry, try again
-   - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
- - Open main09.py. What is happening on line 13? It will show us how many tries you have.
-   - What is the purpose of “count”? It can count the number of tries
-   - What is happening on line 22? It shows us when you get the answer correct, the number of tries you have.
-   - Run the program.
+  - Now right click on the main1.py window and select “Run Python File in Terminal”.  Click in the bottom panel, and answer the question. Describe what happened. It runs in terminal below, and ask what is my favorite color?
+  - What do you think the program did with what you typed in answer to the question?  It will save it in the file.
+- Open main02.py.  Before running it, describe how this is different than main01.py. It has the input function.
+   - What do you think the color = input() will do? I think the color is the same as the main01.
+  -  Run the program in the terminal and answer the question. Did the  program do what you expected? No i expect it to give me the correct answer
+-  Open main03.py. Before running it, describe how this is different than main02.py. It can tell us the correct answer
+   - What is happening on lines 9–12? If you type in other color other than red, it will tell you to try again, it you type red then it is the correct answer
+   - Why are lines 10 and 12 indented? Because last line end with the :
+   - Run the program and answer the question. What happens if you don’t capitalize Red? The answer is wrong if i don't capitalize red.
+   - What does this tell you about "color"?  The color tell me the right answer
+-  Open main04.py. Before running it, describe how this is different than main03.py. The input red is equal to Red
+  -  What problem is this trying to solve? If you dont capitalize red the answer is still correct.
+  -  Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)? The answer is wrong.
+-  Open main05.py. What do you expect line 9 to do? It allow us to repeat the game until i am right.
+  -  What problem is it trying to solve? I dont need to start over, i can keep playing it.
+  -  Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)? The answer is wrong
+ -  Open main06.py. How is line 9 different than in main05.py? It has the strip(). 
+   -  What would you guess .strip() is doing? Return to the begging of the game.
+   -  Run the program and answer the question. Is there another way of writing “red” that will break this logic? If you add another color in it
+ -  Open main07.py. Before running this program, how do you expect this to be different than main06.py? It has a hint if the color is similar.
+   -  What is happening on line 12? If you type pink then it will give you a hint.
+   -  Run the program and answer the question.
+ -  Open main08.py. What is the purpose of line 9? It tells you red is the correct answer
+   -  Why are lines 10–17 indented? Because the last line has the :
+   -  Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)? It keep repeating sorry, try again
+   -  Make that change and run the program again. (To end any Python program, you can type ctrl-c)
+ -  Open main09.py. What is happening on line 13? It will show us how many tries you have.
+   -  What is the purpose of “count”? It can count the number of tries
+   -  What is happening on line 22? It shows us when you get the answer correct, the number of tries you have.
+   -  Run the program.
  - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
  - *Extra credit:* open main11.py. What is happening on lines 6-11?
   
